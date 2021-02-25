@@ -7,4 +7,51 @@
 body {
   font-family: "Verdana", sans-serif;
   font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+header {
+  padding: 32px;
+}
+
+header a,
+.coming-soon a {
+  color: aquamarine;
+  display: block;
+  margin-top: 32px;
+}
+
+.section-image h2,
+.coming-soon h2 {
+  font-size: 42px;
+  font-weight: 300;
+  margin-top: 34px;
+}
+
+.section-image p {
+  font-size: 21px;
+  line-height: 1.5;
+  color: gray;
+  margin-top: 34px;
+}
+
+.section-image figure {
+  margin-top: 24px;
+}
+
+.coming-soon {
+  margin-top: 24px;
+}
+
+footer {
+  padding: 24px;
+  text-align: right;
+  color: gray;
 }
